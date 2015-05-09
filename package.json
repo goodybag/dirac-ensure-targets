@@ -1,6 +1,6 @@
 {
   "name": "dirac-ensure-targets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure insert/update documents only contain keys specified in dal schema",
   "main": "index.js",
   "directories": {
