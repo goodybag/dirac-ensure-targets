@@ -1,0 +1,39 @@
+{
+  "name": "dirac-ensure-targets",
+  "version": "1.0.0",
+  "description": "Ensure insert/update documents only contain keys specified in dal schema",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodybag/dirac-ensure-targets"
+  },
+  "keywords": [
+    "dirac",
+    "ensure",
+    "targets",
+    "insert",
+    "update",
+    "schema"
+  ],
+  "author": "John Fawcett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodybag/dirac-ensure-targets/issues"
+  },
+  "homepage": "https://github.com/goodybag/dirac-ensure-targets",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "peerDependencies": {
+    "dirac": "*"
+  }
+}
